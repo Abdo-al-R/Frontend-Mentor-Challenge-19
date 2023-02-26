@@ -187,25 +187,25 @@ main {
 .card4 {
   background-color: hsl(234, 85%, 45%, 0.1);
 }
-.reaction{
+.reaction {
   color: var(--Light-red);
 }
-.memory{
+.memory {
   color: var(--Orangey-yellow);
 }
-.verbal{
+.verbal {
   color: var(--Green-teal);
 }
-.visual{
+.visual {
   color: var(--Cobalt-blue);
 }
-.number{
+.number {
   font-weight: 700;
 }
-.the100{
+.the100 {
   color: rgb(156, 156, 156);
 }
-.continue{
+.continue {
   background-color: var(--Dark-gray-blue);
   height: 55px;
   color: var(--White);
@@ -217,7 +217,7 @@ main {
   font-size: 1.125rem;
   transition: 0.2s ease;
 }
-.continue:hover{
+.continue:hover {
   background-image: linear-gradient(
     to bottom,
     var(--Light-slate-blue-bg),
@@ -225,86 +225,85 @@ main {
   );
 }
 
-@media (min-width:769px) and (max-width:1024px){
-  main{
+@media (min-width: 769px) and (max-width: 1024px) {
+  main {
     width: 700px;
     height: 500px;
   }
 }
-@media (min-width:481px) and (max-width:768px){
-  body{
+@media (min-width: 481px) and (max-width: 768px) {
+  body {
     display: initial;
   }
-  main{
+  main {
     width: 100%;
     height: 1000px;
     flex-direction: column;
     border-radius: unset;
   }
-  .result-container{
+  .result-container {
     height: 500px;
     width: 100%;
     border-radius: 0 0 30px 30px;
   }
-  .summary-container{
+  .summary-container {
     width: 100%;
     border-radius: unset;
   }
 }
-@media (min-width:376px) and (max-width:480px){
-  body{
+@media (min-width: 376px) and (max-width: 480px) {
+  body {
     display: initial;
   }
-  main{
+  main {
     width: 100%;
     height: 1000px;
     flex-direction: column;
     border-radius: unset;
   }
-  .result-container{
+  .result-container {
     height: 500px;
     width: 100%;
     border-radius: 0 0 30px 30px;
   }
-  .summary-container{
+  .summary-container {
     width: 100%;
     border-radius: unset;
-    padding: 2.5rem  2rem;
+    padding: 2.5rem 2rem;
   }
 }
-@media (min-width:320px) and (max-width:375px){
-  body{
+@media (min-width: 320px) and (max-width: 375px) {
+  body {
     display: initial;
   }
-  main{
+  main {
     width: 100%;
     height: 1000px;
     flex-direction: column;
     border-radius: unset;
   }
-  .result-container{
+  .result-container {
     height: 500px;
     width: 100%;
     border-radius: 0 0 30px 30px;
   }
-  .summary-container{
+  .summary-container {
     width: 100%;
     border-radius: unset;
-    padding: 2.5rem  1.7rem;
-
+    padding: 2.5rem 1.7rem;
   }
 }
-@media (min-width:250px) and (max-width:319px){
-  body{
+@media (min-width: 250px) and (max-width: 319px) {
+  body {
     display: initial;
   }
-  main{
+  main {
     width: 100%;
     height: 920px;
     flex-direction: column;
     border-radius: unset;
   }
-  .result-container{
+  .result-container {
     height: 500px;
     width: 100%;
     border-radius: 0 0 30px 30px;
@@ -327,10 +326,10 @@ main {
     font-size: 0.875rem;
     width: 85%;
   }
-  .summary-container{
+  .summary-container {
     width: 100%;
     border-radius: unset;
-    padding: 2rem  1rem;
+    padding: 2rem 1rem;
   }
   .summary {
     font-size: 1.3rem;
@@ -348,7 +347,7 @@ main {
     height: 20px;
     margin-right: 0.333rem;
   }
-  .continue{
+  .continue {
     width: 70%;
     height: 45px;
     margin-left: auto;
